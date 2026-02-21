@@ -10,18 +10,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 28px;
+    padding: 8px 10px  ;
 }
 
 .logo img {
     height: 48px;
-    width: 150px;
+    width: 100px;
 }
 
 .nav-center ul {
     list-style: none;
     display: flex;
     gap: 2.5rem;
+    color: #333;
 }
 
 .nav-center a {

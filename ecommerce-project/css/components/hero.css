@@ -1,0 +1,78 @@
+.hero {
+    background: url(../../assets/images/banner/hero.jpg) no-repeat center;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+
+
+
+}
+.hero-overlay{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding: 0 6em;
+
+}
+.hero-content{
+color:#ffffffff;
+max-width: 388px;
+text-align: center;
+}
+
+
+.hero-content .hero-tittle{
+font-size: 2rem;
+margin-bottom: 40px;
+font-weight: 400;
+letter-spacing: 3px;
+
+
+}
+
+.hero-content .hero-sub{
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+
+.hero-buttons{
+display: flex;
+gap: 17px;
+
+
+
+}
+
+.btn{
+font: size 15px;
+font-weight: 400;
+width: 161px;
+height: 48px;
+border-radius: 25px;
+padding: 10px 20px;
+color: #ffffffff;
+transition: background-color 0.3s, border 0.3s;
+}
+
+.btn-outline{
+background-color: transparent;
+border:2px solid #ffffffff;
+line-height: 23px;
+}
+
+.btn-filled{
+background-color: #ffffffff;
+color: #6329A2;
+line-height: 24px;
+
+}
+.btn:hover{
+background-color: #6329A2;
+color: #ffffffff;
+border: #6329A2;
+
+
+}

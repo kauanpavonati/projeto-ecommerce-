@@ -1,36 +1,38 @@
-.categories{
+.categories {
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
-   
- 
+
+
 }
 
-.categories-card{
-width: 317px;
-height: 500px;
-border-radius: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 20px;
-position: relative;
-overflow: hidden;
+.categories-card {
+    width: 317px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
 }
-.overlay{
+
+.overlay {
     position: absolute;
-    inset:0;
-    background-color: rgba(0,0,0,0.25);
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
     z-index: 1;
 }
-.name{
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-z-index: 2;
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
 
 
 
@@ -40,21 +42,23 @@ z-index: 2;
 
 
 
-.casual{
-background: url(../../assets/images/cards/tenis\ casual.jpg) no-repeat center;
-background-size: cover;
+.casual {
+    background: url(../../assets/images/cards/tenis\ casual.jpg) no-repeat center;
+    background-size: cover;
 
 }
-.esporte{
+
+.esporte {
     background: url(../../assets/images/cards/tenis\ esportivo.jpg) no-repeat center;
     background-size: cover;
 }
-.moderno{
+
+.moderno {
     background: url(../../assets/images/cards/tenis\ moderno.jpg) no-repeat center;
     background-size: cover;
 }
-.futurista{
+
+.futurista {
     background: url(../../assets/images/cards/tenis\ futurista.jpg) no-repeat center;
     background-size: cover;
 }
-

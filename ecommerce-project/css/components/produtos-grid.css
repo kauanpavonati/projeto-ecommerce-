@@ -1,0 +1,81 @@
+.card{
+border-radius: 20px;
+
+
+}
+
+
+.top1 {
+    grid-area: top1;
+background: url(../../assets/images/galeria/rapaz-card.jpg)no-repeat center;
+
+}
+
+.top2 {
+    grid-area: top2;
+background: url(../../assets/images/galeria/tênis\ roxo\ e\ verde.jpg)no-repeat center ;
+background-size: 100% 200%;
+}
+
+.midL {
+    grid-area: midL;
+  background: url(../../assets/images/galeria/moca.jpg) no-repeat center;
+background-size: 100% 100%;
+  
+}
+
+.midR {
+    grid-area: midR;
+ background: url(../../assets/images/galeria/tenis-esportivo-roxo.jpg) no-repeat center;
+ background-size: cover;
+}
+
+.botL {
+    grid-area: botL;
+background: url(../../assets/images/galeria/ztênis\ preto\ azul.jpg) no-repeat center;
+background-size: 100% 200%;
+}
+
+.botR {
+    grid-area: botR;
+  background: url(../../assets/images/galeria/tenis\ esportivo\ cinza.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas:
+        "top1 top1 top2 top2"
+        "top1 top1 midL midR"
+        "botL botL midL botR"
+    ;
+  gap: 30px;
+
+}
+
+.top1-content{
+position: relative;
+left: 30%;
+top: 50%;
+transform: translate(-30%, -50%);
+text-align: center;
+}
+
+.card-tittle{
+font-size: 1.15rem;
+font-weight: 400;
+margin-bottom: 10px;
+color: whitesmoke;
+
+
+}
+
+.card-subtittle{
+font-size: 1.5rem;
+font-weight: 400;
+color: whitesmoke;
+margin-bottom: 20px;
+}
+

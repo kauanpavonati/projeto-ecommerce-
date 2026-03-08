@@ -1,5 +1,5 @@
-.card{
-border-radius: 20px;
+.card {
+    border-radius: 20px;
 
 
 }
@@ -7,39 +7,39 @@ border-radius: 20px;
 
 .top1 {
     grid-area: top1;
-background: url(../../assets/images/galeria/rapaz-card.jpg)no-repeat center;
+    background: url(../../assets/images/galeria/rapaz-card.jpg)no-repeat center;
 
 }
 
 .top2 {
     grid-area: top2;
-background: url(../../assets/images/galeria/tênis\ roxo\ e\ verde.jpg)no-repeat center ;
-background-size: 100% 200%;
+    background: url(../../assets/images/galeria/tênis\ roxo\ e\ verde.jpg)no-repeat center;
+    background-size: 100% 200%;
 }
 
 .midL {
     grid-area: midL;
-  background: url(../../assets/images/galeria/moca.jpg) no-repeat center;
-background-size: 100% 100%;
-  
+    background: url(../../assets/images/galeria/moca.jpg) no-repeat center;
+    background-size: 100% 100%;
+
 }
 
 .midR {
     grid-area: midR;
- background: url(../../assets/images/galeria/tenis-esportivo-roxo.jpg) no-repeat center;
- background-size: cover;
+    background: url(../../assets/images/galeria/tenis-esportivo-roxo.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .botL {
     grid-area: botL;
-background: url(../../assets/images/galeria/ztênis\ preto\ azul.jpg) no-repeat center;
-background-size: 100% 200%;
+    background: url(../../assets/images/galeria/ztênis\ preto\ azul.jpg) no-repeat center;
+    background-size: 100% 200%;
 }
 
 .botR {
     grid-area: botR;
-  background: url(../../assets/images/galeria/tenis\ esportivo\ cinza.jpg) no-repeat center;
-  background-size: cover;
+    background: url(../../assets/images/galeria/tenis\ esportivo\ cinza.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .grid {
@@ -51,31 +51,75 @@ background-size: 100% 200%;
         "top1 top1 midL midR"
         "botL botL midL botR"
     ;
-  gap: 30px;
+    gap: 30px;
 
 }
 
-.top1-content{
-position: relative;
-left: 30%;
-top: 50%;
-transform: translate(-30%, -50%);
-text-align: center;
+.top1-content {
+    position: relative;
+    left: 30%;
+    top: 50%;
+    transform: translate(-30%, -50%);
+    text-align: center;
 }
 
-.card-tittle{
-font-size: 1.15rem;
-font-weight: 400;
-margin-bottom: 10px;
-color: whitesmoke;
+.card-tittle {
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: whitesmoke;
 
 
 }
 
-.card-subtittle{
-font-size: 1.5rem;
-font-weight: 400;
-color: whitesmoke;
-margin-bottom: 20px;
+.card-subtittle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: whitesmoke;
+    margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "top1 top1"
+            "botL botL"
+            "midL midR"
+            "midL botR"
+            "top2 top2"
+        ;
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .top1 {
+        min-height: 500px;
+    }
+
+
+    .midL {
+        min-height: 370px;
+    }
+
+    .top2 {
+        min-height: 190px;
+    }
+
+
+}
+
+.midR {
+    min-height: 190px;
+}
+
+.botL {
+    min-height: 190px;
+}
+
+.botR {
+    min-height: 190px;
+}
+
+}

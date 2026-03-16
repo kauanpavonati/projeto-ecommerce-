@@ -76,10 +76,33 @@
     text-decoration: underline;
 }
 
-.footer-bottom{
-display: flex;
-justify-content: center;    
-align-items: center;
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+}
+
+@media (max-width: 1000px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: flex-start;
+    }
+
+    .footer-newsletter {
+        margin-bottom: 30px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-social ul {
+        justify-content: flex-start;
+
+    }
 
 }
